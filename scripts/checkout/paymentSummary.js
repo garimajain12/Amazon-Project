@@ -50,8 +50,8 @@ export function renderPaymentSummary()
       <div class="payment-summary-money">$${formatCurrency(totalCents)}</div>
     </div>
 
-    <button class="place-order-button button-primary">
-      Place your order
+    <button class="place-order-button button-primary" onclick="window.location.href='orders.html'">
+        Place your order
     </button>
   `;
 
