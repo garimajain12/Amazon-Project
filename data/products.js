@@ -13,11 +13,12 @@ export function getProduct(productId){
 }
 
 class Product {
-  // id;
-  // image;
-  // name;
-  // rating;
-  // priceCents;
+  id;
+  image;
+  name;
+  rating;
+  priceCents;
+  keywords;
 
   constructor(productDetails)
   {  
@@ -26,6 +27,8 @@ class Product {
   this.name = productDetails.name;
   this.rating = productDetails.rating;
   this.priceCents = productDetails.priceCents;
+  this.keywords = productDetails.keywords;
+
 }
 
   getStarsUrl(){
